@@ -16,6 +16,8 @@
 		261EEFFA2764628B000EA3B9 /* PriceMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EEFF92764628B000EA3B9 /* PriceMeTests.swift */; };
 		261EF0042764628B000EA3B9 /* PriceMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EF0032764628B000EA3B9 /* PriceMeUITests.swift */; };
 		261EF0062764628B000EA3B9 /* PriceMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EF0052764628B000EA3B9 /* PriceMeUITestsLaunchTests.swift */; };
+		261EF01327646F26000EA3B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EF01227646F26000EA3B9 /* MainView.swift */; };
+		262FEB932765CC3C00A0F612 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEB922765CC3C00A0F612 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		261EEFFF2764628B000EA3B9 /* PriceMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		261EF0032764628B000EA3B9 /* PriceMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceMeUITests.swift; sourceTree = "<group>"; };
 		261EF0052764628B000EA3B9 /* PriceMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		261EF01227646F26000EA3B9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		262FEB922765CC3C00A0F612 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				261EEFE327646271000EA3B9 /* PriceMeApp.swift */,
 				261EEFE527646271000EA3B9 /* ContentView.swift */,
+				261EF01227646F26000EA3B9 /* MainView.swift */,
+				262FEB922765CC3C00A0F612 /* AddView.swift */,
 				261EEFE727646288000EA3B9 /* Assets.xcassets */,
 				261EEFEC27646289000EA3B9 /* Persistence.swift */,
 				261EEFEE27646289000EA3B9 /* PriceMe.xcdatamodeld */,
@@ -265,7 +271,9 @@
 			files = (
 				261EEFED27646289000EA3B9 /* Persistence.swift in Sources */,
 				261EEFF027646289000EA3B9 /* PriceMe.xcdatamodeld in Sources */,
+				262FEB932765CC3C00A0F612 /* AddView.swift in Sources */,
 				261EEFE627646271000EA3B9 /* ContentView.swift in Sources */,
+				261EF01327646F26000EA3B9 /* MainView.swift in Sources */,
 				261EEFE427646271000EA3B9 /* PriceMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
