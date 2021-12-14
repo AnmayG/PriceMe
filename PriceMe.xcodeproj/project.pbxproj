@@ -18,6 +18,9 @@
 		261EF0062764628B000EA3B9 /* PriceMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EF0052764628B000EA3B9 /* PriceMeUITestsLaunchTests.swift */; };
 		261EF01327646F26000EA3B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EF01227646F26000EA3B9 /* MainView.swift */; };
 		262FEB932765CC3C00A0F612 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEB922765CC3C00A0F612 /* AddView.swift */; };
+		262FEB952769305F00A0F612 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEB942769305E00A0F612 /* CameraViewController.swift */; };
+		262FEB972769308300A0F612 /* MLKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEB962769308300A0F612 /* MLKitExtensions.swift */; };
+		262FEB992769319B00A0F612 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEB982769319B00A0F612 /* UIUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		261EF0052764628B000EA3B9 /* PriceMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		261EF01227646F26000EA3B9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		262FEB922765CC3C00A0F612 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		262FEB942769305E00A0F612 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../../../Downloads/CameraViewController.swift; sourceTree = "<group>"; };
+		262FEB962769308300A0F612 /* MLKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLKitExtensions.swift; sourceTree = "<group>"; };
+		262FEB982769319B00A0F612 /* UIUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				261EEFE327646271000EA3B9 /* PriceMeApp.swift */,
+				262FEB942769305E00A0F612 /* CameraViewController.swift */,
+				262FEB962769308300A0F612 /* MLKitExtensions.swift */,
+				262FEB982769319B00A0F612 /* UIUtilities.swift */,
 				261EEFE527646271000EA3B9 /* ContentView.swift */,
 				261EF01227646F26000EA3B9 /* MainView.swift */,
 				262FEB922765CC3C00A0F612 /* AddView.swift */,
@@ -270,10 +279,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				261EEFED27646289000EA3B9 /* Persistence.swift in Sources */,
+				262FEB972769308300A0F612 /* MLKitExtensions.swift in Sources */,
 				261EEFF027646289000EA3B9 /* PriceMe.xcdatamodeld in Sources */,
 				262FEB932765CC3C00A0F612 /* AddView.swift in Sources */,
 				261EEFE627646271000EA3B9 /* ContentView.swift in Sources */,
+				262FEB952769305F00A0F612 /* CameraViewController.swift in Sources */,
 				261EF01327646F26000EA3B9 /* MainView.swift in Sources */,
+				262FEB992769319B00A0F612 /* UIUtilities.swift in Sources */,
 				261EEFE427646271000EA3B9 /* PriceMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -31,6 +31,8 @@ struct AddView: View {
 
 struct DialView: View {
     @State private var value: CGFloat = 0
+    @State private var finalValue: CGFloat = 0
+    @State private var valueString: String = ""
 
     private let initialTemperature: CGFloat
     private let scale: CGFloat = 275
@@ -41,8 +43,7 @@ struct DialView: View {
     private var innerScale: CGFloat {
         return scale - indicatorLength
     }
-
-
+    
     init(temperature: CGFloat) {
         self.initialTemperature = temperature
     }
@@ -76,6 +77,8 @@ struct DialView: View {
 
                         let angle = self.angle(between: start, ending: ending)
                         self.value = CGFloat(Int(((angle / 360) * (self.maxTemperature / self.stepSize)))) / (self.maxTemperature / self.stepSize)
+                        self.finalValue = self.value * self.maxTemperature
+                        self.valueString = String(format: "%.2f", self.finalValue)
                     }
                 )
             Circle()
@@ -86,11 +89,21 @@ struct DialView: View {
                 .stroke(Color.black, style: StrokeStyle(lineWidth: self.indicatorLength, lineCap: .butt, lineJoin: .miter, dash: [4]))
                 .rotationEffect(.degrees(-90))
                 .frame(width: self.scale, height: self.scale, alignment: .center)
-
-            Text("\(self.value * self.maxTemperature, specifier: "%.1f") \u{2103}")
-                .font(.largeTitle)
-                .foregroundColor(Color.black)
-                .fontWeight(.semibold)
+            HStack {
+                Spacer()
+                Text("$")
+                    .font(.largeTitle)
+                    .foregroundColor(Color.black)
+                    .fontWeight(.semibold)
+                TextField("0.00", text: $valueString)
+                    .font(.largeTitle)
+                    .foregroundColor(Color.black)
+                    .frame(width: 100, alignment: .center)
+                    .onTapGesture {
+                        print("The text field was pressed!")
+                    }
+                Spacer()
+            }
         }
         .onAppear(perform: {
             self.value = self.initialTemperature / self.maxTemperature
