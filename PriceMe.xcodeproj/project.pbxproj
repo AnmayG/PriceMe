@@ -21,6 +21,10 @@
 		262FEB952769305F00A0F612 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEB942769305E00A0F612 /* CameraViewController.swift */; };
 		262FEB972769308300A0F612 /* MLKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEB962769308300A0F612 /* MLKitExtensions.swift */; };
 		262FEB992769319B00A0F612 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FEB982769319B00A0F612 /* UIUtilities.swift */; };
+		26D8F4FC276ACC6B008B1437 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8F4FB276ACC6B008B1437 /* CameraView.swift */; };
+		4E1BE561080AF9C89F029B65 /* Pods_PriceMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5781473EE848257362FC05 /* Pods_PriceMeTests.framework */; };
+		5A3CF82EB55ED51A8467F5AC /* Pods_PriceMe_PriceMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66C59097169CB9E03DEE7BA /* Pods_PriceMe_PriceMeUITests.framework */; };
+		E3675DB3657E32ADA9F2E86E /* Pods_PriceMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED46A9CFCBBA359DF16D029 /* Pods_PriceMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03D7B52CA7B5ABD722681434 /* Pods-PriceMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceMe.release.xcconfig"; path = "Target Support Files/Pods-PriceMe/Pods-PriceMe.release.xcconfig"; sourceTree = "<group>"; };
+		1ED46A9CFCBBA359DF16D029 /* Pods_PriceMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriceMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		261EEFE027646271000EA3B9 /* PriceMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		261EEFE327646271000EA3B9 /* PriceMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceMeApp.swift; sourceTree = "<group>"; };
 		261EEFE527646271000EA3B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +64,15 @@
 		262FEB942769305E00A0F612 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../../../Downloads/CameraViewController.swift; sourceTree = "<group>"; };
 		262FEB962769308300A0F612 /* MLKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLKitExtensions.swift; sourceTree = "<group>"; };
 		262FEB982769319B00A0F612 /* UIUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
+		26D8F4F9276ACA1C008B1437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D8F4FB276ACC6B008B1437 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		38F8AE4D9DA202E5F5B62F92 /* Pods-PriceMe-PriceMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceMe-PriceMeUITests.release.xcconfig"; path = "Target Support Files/Pods-PriceMe-PriceMeUITests/Pods-PriceMe-PriceMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		392851BBEBD560AAE6C32E6D /* Pods-PriceMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceMeTests.release.xcconfig"; path = "Target Support Files/Pods-PriceMeTests/Pods-PriceMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C020C42271D809AFB044022 /* Pods-PriceMe-PriceMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceMe-PriceMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-PriceMe-PriceMeUITests/Pods-PriceMe-PriceMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CAC391037667269FE033AE0 /* Pods-PriceMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceMe.debug.xcconfig"; path = "Target Support Files/Pods-PriceMe/Pods-PriceMe.debug.xcconfig"; sourceTree = "<group>"; };
+		7E5781473EE848257362FC05 /* Pods_PriceMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriceMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66C59097169CB9E03DEE7BA /* Pods_PriceMe_PriceMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriceMe_PriceMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE45C386972BD7D0498B435C /* Pods-PriceMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceMeTests.debug.xcconfig"; path = "Target Support Files/Pods-PriceMeTests/Pods-PriceMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3675DB3657E32ADA9F2E86E /* Pods_PriceMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1BE561080AF9C89F029B65 /* Pods_PriceMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3CF82EB55ED51A8467F5AC /* Pods_PriceMe_PriceMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +110,8 @@
 				261EEFF82764628B000EA3B9 /* PriceMeTests */,
 				261EF0022764628B000EA3B9 /* PriceMeUITests */,
 				261EEFE127646271000EA3B9 /* Products */,
+				C7881318F966BED5AA68E768 /* Pods */,
+				56360078DAC89CF2B8401C19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +128,7 @@
 		261EEFE227646271000EA3B9 /* PriceMe */ = {
 			isa = PBXGroup;
 			children = (
+				26D8F4F9276ACA1C008B1437 /* Info.plist */,
 				261EEFE327646271000EA3B9 /* PriceMeApp.swift */,
 				262FEB942769305E00A0F612 /* CameraViewController.swift */,
 				262FEB962769308300A0F612 /* MLKitExtensions.swift */,
@@ -119,6 +140,7 @@
 				261EEFEC27646289000EA3B9 /* Persistence.swift */,
 				261EEFEE27646289000EA3B9 /* PriceMe.xcdatamodeld */,
 				261EEFE927646289000EA3B9 /* Preview Content */,
+				26D8F4FB276ACC6B008B1437 /* CameraView.swift */,
 			);
 			path = PriceMe;
 			sourceTree = "<group>";
@@ -148,6 +170,29 @@
 			path = PriceMeUITests;
 			sourceTree = "<group>";
 		};
+		56360078DAC89CF2B8401C19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ED46A9CFCBBA359DF16D029 /* Pods_PriceMe.framework */,
+				A66C59097169CB9E03DEE7BA /* Pods_PriceMe_PriceMeUITests.framework */,
+				7E5781473EE848257362FC05 /* Pods_PriceMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7881318F966BED5AA68E768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CAC391037667269FE033AE0 /* Pods-PriceMe.debug.xcconfig */,
+				03D7B52CA7B5ABD722681434 /* Pods-PriceMe.release.xcconfig */,
+				5C020C42271D809AFB044022 /* Pods-PriceMe-PriceMeUITests.debug.xcconfig */,
+				38F8AE4D9DA202E5F5B62F92 /* Pods-PriceMe-PriceMeUITests.release.xcconfig */,
+				AE45C386972BD7D0498B435C /* Pods-PriceMeTests.debug.xcconfig */,
+				392851BBEBD560AAE6C32E6D /* Pods-PriceMeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 261EF0092764628B000EA3B9 /* Build configuration list for PBXNativeTarget "PriceMe" */;
 			buildPhases = (
+				C15D004409A717188205DFEC /* [CP] Check Pods Manifest.lock */,
 				261EEFDC27646271000EA3B9 /* Sources */,
 				261EEFDD27646271000EA3B9 /* Frameworks */,
 				261EEFDE27646271000EA3B9 /* Resources */,
+				151EDF8786123C27876AB517 /* [CP] Embed Pods Frameworks */,
+				135E000689A51D90780169EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 261EF00C2764628B000EA3B9 /* Build configuration list for PBXNativeTarget "PriceMeTests" */;
 			buildPhases = (
+				EA4AD580BCBF76031722E120 /* [CP] Check Pods Manifest.lock */,
 				261EEFF12764628B000EA3B9 /* Sources */,
 				261EEFF22764628B000EA3B9 /* Frameworks */,
 				261EEFF32764628B000EA3B9 /* Resources */,
@@ -190,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 261EF00F2764628B000EA3B9 /* Build configuration list for PBXNativeTarget "PriceMeUITests" */;
 			buildPhases = (
+				45E41ABCB72F6501372BD8E0 /* [CP] Check Pods Manifest.lock */,
 				261EEFFB2764628B000EA3B9 /* Sources */,
 				261EEFFC2764628B000EA3B9 /* Frameworks */,
 				261EEFFD2764628B000EA3B9 /* Resources */,
+				65ACEBBE544B918294A897DA /* [CP] Embed Pods Frameworks */,
+				5092F0747EF6113F3609F1D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +325,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		135E000689A51D90780169EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceMe/Pods-PriceMe-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceMe/Pods-PriceMe-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PriceMe/Pods-PriceMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		151EDF8786123C27876AB517 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceMe/Pods-PriceMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceMe/Pods-PriceMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PriceMe/Pods-PriceMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45E41ABCB72F6501372BD8E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriceMe-PriceMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5092F0747EF6113F3609F1D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceMe-PriceMeUITests/Pods-PriceMe-PriceMeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceMe-PriceMeUITests/Pods-PriceMe-PriceMeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PriceMe-PriceMeUITests/Pods-PriceMe-PriceMeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65ACEBBE544B918294A897DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceMe-PriceMeUITests/Pods-PriceMe-PriceMeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceMe-PriceMeUITests/Pods-PriceMe-PriceMeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PriceMe-PriceMeUITests/Pods-PriceMe-PriceMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15D004409A717188205DFEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriceMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4AD580BCBF76031722E120 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriceMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		261EEFDC27646271000EA3B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,6 +470,7 @@
 				261EEFED27646289000EA3B9 /* Persistence.swift in Sources */,
 				262FEB972769308300A0F612 /* MLKitExtensions.swift in Sources */,
 				261EEFF027646289000EA3B9 /* PriceMe.xcdatamodeld in Sources */,
+				26D8F4FC276ACC6B008B1437 /* CameraView.swift in Sources */,
 				262FEB932765CC3C00A0F612 /* AddView.swift in Sources */,
 				261EEFE627646271000EA3B9 /* ContentView.swift in Sources */,
 				262FEB952769305F00A0F612 /* CameraViewController.swift in Sources */,
@@ -441,6 +631,7 @@
 		};
 		261EF00A2764628B000EA3B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAC391037667269FE033AE0 /* Pods-PriceMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,9 +641,13 @@
 				DEVELOPMENT_TEAM = C338FV9KT2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceMe/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the data from the camera for the image recognition.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use the data from the photo library for the image recognition.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,6 +665,7 @@
 		};
 		261EF00B2764628B000EA3B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D7B52CA7B5ABD722681434 /* Pods-PriceMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,9 +675,13 @@
 				DEVELOPMENT_TEAM = C338FV9KT2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceMe/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the data from the camera for the image recognition.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use the data from the photo library for the image recognition.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,6 +699,7 @@
 		};
 		261EF00D2764628B000EA3B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE45C386972BD7D0498B435C /* Pods-PriceMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +725,7 @@
 		};
 		261EF00E2764628B000EA3B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392851BBEBD560AAE6C32E6D /* Pods-PriceMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -549,6 +751,7 @@
 		};
 		261EF0102764628B000EA3B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C020C42271D809AFB044022 /* Pods-PriceMe-PriceMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +775,7 @@
 		};
 		261EF0112764628B000EA3B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F8AE4D9DA202E5F5B62F92 /* Pods-PriceMe-PriceMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

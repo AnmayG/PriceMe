@@ -38,7 +38,7 @@ struct DialView: View {
     private let scale: CGFloat = 275
     private let indicatorLength: CGFloat = 25
     private let maxTemperature: CGFloat = 32
-    private let stepSize: CGFloat = 0.5
+    private let stepSize: CGFloat = 0.1
 
     private var innerScale: CGFloat {
         return scale - indicatorLength
@@ -99,6 +99,7 @@ struct DialView: View {
                     .font(.largeTitle)
                     .foregroundColor(Color.black)
                     .frame(width: 100, alignment: .center)
+                    .keyboardType(.decimalPad)
                     .onTapGesture {
                         print("The text field was pressed!")
                     }

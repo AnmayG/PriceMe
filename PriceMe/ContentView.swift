@@ -21,7 +21,7 @@ struct ContentView: View {
                 Label("Add", systemImage: "plus")
             }
            
-            Text("Camera")
+            CameraView()
             .tabItem {
                 Label("Camera", systemImage: "camera")
             }
